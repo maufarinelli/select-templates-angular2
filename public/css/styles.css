@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+.main-title {
+  margin-left: 10px;
+}
+header {
+  order: 2;
+}
+aside {
+  order: 1;
+}
+.template-menu {
+  width: 200px;
+  height: 100%;
+  flex-grow: 0;
+  border-right: 1px #999 solid;
+  box-shadow: 0 2px 2px #999;
+}

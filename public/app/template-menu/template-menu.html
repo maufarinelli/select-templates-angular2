@@ -1,0 +1,6 @@
+<h2 class="template-menu-title">Templates</h2>
+<ul class="template-menu-list">
+	<li *ngFor="#template of templateList">
+		<a href="#" class="template-menu-list-item" (click)="onSelect(template)">{{template.name}}</a>
+	</li>
+</ul>

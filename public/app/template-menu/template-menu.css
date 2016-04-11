@@ -1,0 +1,14 @@
+.template-menu-title {
+  margin-top: 0;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+.template-menu-list {
+  list-style: none;
+  padding-left: 10px;
+}
+.template-menu-list-item {
+  display: block;
+  padding: 10px 20px 5px 0;
+  border-top: 1px #ccc solid;
+}
