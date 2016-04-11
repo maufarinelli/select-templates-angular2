@@ -8,6 +8,7 @@ module.exports = function(grunt) {
 				files: {
 					"public/css/styles.css": "public/css/styles.less",
 					"public/app/template-menu/template-menu.css": "public/app/template-menu/template-menu.less",
+					"public/app/template-area/template-area.css": "public/app/template-area/template-area.less"
 				}
 			},
 			production: {
@@ -18,6 +19,7 @@ module.exports = function(grunt) {
 				files: {
 					"public/css/styles.css": "public/css/styles.less",
 					"public/app/template-menu/template-menu.css": "public/app/template-menu/template-menu.less",
+					"public/app/template-area/template-area.css": "public/app/template-area/template-area.less"
 				}
 			}
 		}
