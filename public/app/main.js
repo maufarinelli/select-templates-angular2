@@ -1,4 +1,4 @@
-System.register(['angular2/platform/browser', 'angular2/core', './template-menu/template-menu.component', './template-area/template-area.component', './template/template.component', 'angular2/http'], function(exports_1) {
+System.register(['angular2/platform/browser', 'angular2/core', './template-menu/template-menu.component', './template-area/template-area.component', './template-switch/template-switch.component', './templates/template-1.component', './templates/template-2.component', './templates/template-3.component', 'angular2/http'], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
         switch (arguments.length) {
@@ -10,7 +10,7 @@ System.register(['angular2/platform/browser', 'angular2/core', './template-menu/
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var browser_1, core_1, template_menu_component_1, template_area_component_1, template_component_1, http_1;
+    var browser_1, core_1, template_menu_component_1, template_area_component_1, template_switch_component_1, template_1_component_1, template_2_component_1, template_3_component_1, http_1;
     var MainComponent;
     return {
         setters:[
@@ -26,8 +26,17 @@ System.register(['angular2/platform/browser', 'angular2/core', './template-menu/
             function (template_area_component_1_1) {
                 template_area_component_1 = template_area_component_1_1;
             },
-            function (template_component_1_1) {
-                template_component_1 = template_component_1_1;
+            function (template_switch_component_1_1) {
+                template_switch_component_1 = template_switch_component_1_1;
+            },
+            function (template_1_component_1_1) {
+                template_1_component_1 = template_1_component_1_1;
+            },
+            function (template_2_component_1_1) {
+                template_2_component_1 = template_2_component_1_1;
+            },
+            function (template_3_component_1_1) {
+                template_3_component_1 = template_3_component_1_1;
             },
             function (http_1_1) {
                 http_1 = http_1_1;
@@ -40,7 +49,14 @@ System.register(['angular2/platform/browser', 'angular2/core', './template-menu/
                     core_1.Component({
                         selector: 'main-component',
                         templateUrl: 'app/app.html',
-                        directives: [template_menu_component_1.TemplateMenuComponent, template_area_component_1.TemplateAreaComponent, template_component_1.TemplateComponent]
+                        directives: [
+                            template_menu_component_1.TemplateMenuComponent,
+                            template_area_component_1.TemplateAreaComponent,
+                            template_switch_component_1.TemplateSwitchComponent,
+                            template_1_component_1.Template1Component,
+                            template_2_component_1.Template2Component,
+                            template_3_component_1.Template3Component
+                        ]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], MainComponent);
